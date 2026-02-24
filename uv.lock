@@ -4315,11 +4315,6 @@ wheels = [
 ]
 
 [[package]]
-name = "nomad-aitoolkit"
-version = "0.1.1"
-source = { git = "https://github.com/FAIRmat-NFDI/nomad-aitoolkit.git?rev=b203f8eb28dc4b6771a39d5c5b7ad3d9d8583ac8#b203f8eb28dc4b6771a39d5c5b7ad3d9d8583ac8" }
-
-[[package]]
 name = "nomad-catalysis"
 version = "1.0.5"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
@@ -4347,7 +4342,6 @@ jupyter = [
     { name = "jupyter-events" },
 ]
 plugins = [
-    { name = "nomad-aitoolkit" },
     { name = "nomad-catalysis" },
     { name = "nomad-external-eln-integrations" },
     { name = "nomad-neb-workflows" },
@@ -4384,7 +4378,6 @@ plugins = [
 [package.metadata]
 requires-dist = [
     { name = "jupyter-events", marker = "extra == 'jupyter'" },
-    { name = "nomad-aitoolkit", marker = "extra == 'plugins'", git = "https://github.com/FAIRmat-NFDI/nomad-aitoolkit.git?rev=b203f8eb28dc4b6771a39d5c5b7ad3d9d8583ac8" },
     { name = "nomad-catalysis", marker = "extra == 'plugins'", specifier = "==1.0.5" },
     { name = "nomad-external-eln-integrations", marker = "extra == 'plugins'", git = "https://github.com/FAIRmat-NFDI/nomad-external-eln-integrations?rev=982bbb3ed327d0256da59433e9bd66972cb8a86d" },
     { name = "nomad-lab", extras = ["dev", "infrastructure"], marker = "extra == 'dev'" },
