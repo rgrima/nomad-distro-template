@@ -51,7 +51,7 @@ plugins = [
  "pynxtools-igor==0.1.4", 
  "pynxtools-mpes==0.2.6", 
  "pynxtools-raman==0.1.1", 
- "pynxtools-spm==0.2.1", 
+ "pynxtools-spm==0.2.2", 
  "pynxtools-xps==0.5.4", 
  "pynxtools-xrd==0.0.7", 
  "nomad-catalysis==1.0.5", 
