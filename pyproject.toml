@@ -55,7 +55,7 @@ plugins = [
  "pynxtools-xps==0.5.4", 
  "pynxtools-xrd==0.0.7", 
  "nomad-catalysis==1.0.5", 
- "nomad-neb-workflows==1.0.2", 
+ "nomad-neb-workflows==1.0.3", 
  "nomad-porous-materials @ git+https://github.com/FAIRmat-NFDI/nomad-porous-materials.git@522f4a3208077f534f1c5e886527ee2104283d0b", 
  "nomad-external-eln-integrations @ git+https://github.com/FAIRmat-NFDI/nomad-external-eln-integrations@982bbb3ed327d0256da59433e9bd66972cb8a86d", 
  "pdf2doi @ git+https://github.com/sherjeelshabih/pdf2doi.git@fix-missing-config-in-wheel", # temporarily needed for solar cell database 
