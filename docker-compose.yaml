@@ -79,6 +79,7 @@ services:
     depends_on:
       - postgresql
     environment:
+      - LOG_LEVEL=debug
       - DB=postgres12
       - DB_PORT=5432
       - POSTGRES_USER=temporal
@@ -104,6 +105,7 @@ services:
     image: ghcr.io/rgrima/nomad-distro-template:main
     platform: linux/amd64
     environment:
+      NOMAD_LOG_LEVEL: DEBUG
       NOMAD_SERVICE: nomad_oasis_worker
       NOMAD_RABBITMQ_HOST: rabbitmq
       NOMAD_ELASTIC_HOST: elastic
